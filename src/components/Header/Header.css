@@ -1,0 +1,37 @@
+.head-logo img{
+    width: 100px;
+    color: white;
+}
+
+.head-button{
+    background-color: #F9A51A;
+    color: black;
+    border: none;
+    padding: 5px 20px;
+    border-radius: 5px;    
+}
+
+.search-bar{
+    background-color: rgba(255, 255, 255, 0.349);
+    border: 2px solid white;
+    border-radius: 3px;
+    padding: 3px 20px;
+    color: white;
+}
+
+::placeholder {
+    color: white;
+  }
+
+  .head-menu{
+      text-decoration: none;
+      color: white;
+      margin-right: 20px;
+      font-weight: 700;
+      margin-top: 3px;
+  }
+
+  .head-menu:hover {
+      color: rgb(194, 194, 194);
+      outline: none;
+  }

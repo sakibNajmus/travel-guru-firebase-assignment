@@ -1,0 +1,8 @@
+.main-banner{
+    display: flex;
+    position: absolute;
+    top: 0;
+    z-index: -1;
+    background-size: cover;
+    max-width: 100%;
+}
