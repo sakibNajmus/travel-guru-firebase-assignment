@@ -1,13 +1,19 @@
-import React from 'react';
+import React, { useState } from 'react';
 import background from '../../resources/Image/Rectangle 1.png'
-import Carousel from '../Carousel/Carousel';
+import Slider from '../Slider/Slider';
 import './Banner.css'
+import fakeData from '../../fakeData';
 
 const Banner = () => {
+    const destinationList = fakeData;
+    const [places, setplaces] = useState(destinationList);
+
     return (
         <div>
             <img className="main-banner" src={background} alt=""/>
-            <Carousel></Carousel>
+            {
+                places.map(place => <Slider place={place}></Slider>)
+            }
         </div>
     );
 };
