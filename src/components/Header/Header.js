@@ -1,6 +1,7 @@
 import React from 'react';
-import { Col, Container, Form, FormControl, Nav, Navbar, NavDropdown, Row } from 'react-bootstrap';
+import { Col, Container, Form, Nav, Navbar, Row } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
+import background from '../../resources/Image/Rectangle 1.png'
 import logo from '../../resources/Logo.png'
 import './Header.css'
 
@@ -23,13 +24,14 @@ const Header = () => {
                         <Link className="head-menu" to="/destination">Destination</Link>
                         <Link className="head-menu" to="/blog">Blog</Link>
                         <Link className="head-menu" to="/contact">Contact</Link>
-                        <button className="head-button">Login</button>
+                        <Link to="/login"><button className="head-button" type="submit">Login</button></Link>
                         </Nav>
                     </Navbar.Collapse>
                     </Navbar>
                 </Col>
             </Row>
             </Container>
+            <img className="main-banner" src={background} alt=""/>
         </div>
     );
 };

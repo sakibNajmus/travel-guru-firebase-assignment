@@ -9,21 +9,21 @@ var travelDestination = [
     {
         "id": 2,
         "name": "Sundarban",
-        "description": "The Sundarbans is a mangrove area in the delta formed by the confluence of the Ganges, Brahmaputra and Meghna Rivers in the Bay of Bengal. It spans from the Hooghly River in India's state of West Bengal to the Baleswar River in Bangladesh.",
+        "description": "The Sundarbans are the largest littoral mangrove belt in the world, stretching 80 km (50 mi) into the Bangladeshi and Indian hinterland from the coast. The Sundarbans has been declared a UNESCO World Heritage Site. The forests aren't just mangrove swamps though, they include some of the last remaining stands of the mighty jungles which once covered the Gangetic plain. The Sundarbans cover an area of 10,500 sq km, of which about one-third is covered in water/marsh areas. Since 1966 the Sundarbans have been a wildlife sanctuary",
         "image": "https://i.postimg.cc/JzZHG6VC/sundorbon.png"
     },
 
     {
         "id": 3,
         "name": "Bandarban",
-        "description": "Bandarban, is a district in South-Eastern Bangladesh, and a part of the Chittagong Division.[2] It is one of the three hill districts of Bangladesh and a part of the Chittagong Hill Tracts, the others being Rangamati District and Khagrachhari District. Bandarban city is the headquarters of the Bandarban district. Bandarban district (4,479 km2) is not only the most remote district of the country, but also the least populous (population 292,900).[3] There is an army contingent at Bandarban Cantonment.",
+        "description": "Bandarban Hill District is the most remote and least populated district in Bangladesh. The lure of the tallest peaks of Bangladesh, treks through virgin forests and chance to meet more than 15 tribes of the region up close is growing both among Bangladeshis and tourists from other countries. Since the insurgency ceased in the Chittagong Hill Tracts (a cluster that includes all three hill districts of Bangladesh) it has opened up for tourists more than a decade back, though some of the western tourist guides may still describe the area as a major security risk.",
         "image": "https://i.postimg.cc/xTWbjrZP/Sajek.png"
     },
 
     {
         "id": 4,
         "name": "Sreemangal",
-        "description": "It is said the name Sreemangal (or Srimangal) is named after Sri Das and Mangal Das; two brothers who settled on the banks of the Hail Haor.[2] A copper plate of Raja Marundanath from the 11th century was found in Kalapur. During an excavation at Lamua, an ancient statue of Ananta Narayan was dug out.",
+        "description": "Sreemangal is situated in Moulvibazar district in sylhet division. Sreemangal is an Upazila. It is famous for tea garden. Rain all time occurs here. Nature has adorned sreemangal with green tress. Its natural scenery is very charming. It soothes one’s eyes. Birds are twittering always here. The first tea garden in Bangladesh which names “Malni chho ra tea garden” is here. Only one tea research institute in Bangladesh which name is BTRI (Bangladesh Tea Research Institute) is situated in Sreemangal.",
         "image": "https://i.postimg.cc/d0Fkd2wk/Sreemongol.png"
     }
 ]

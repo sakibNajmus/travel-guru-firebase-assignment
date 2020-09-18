@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
-import background from '../../resources/Image/Rectangle 1.png'
 import Slider from '../Slider/Slider';
 import './Banner.css'
 import fakeData from '../../fakeData';
+import Home from '../Home/Home';
 
 const Banner = () => {
     const destinationList = fakeData;
@@ -10,9 +10,9 @@ const Banner = () => {
 
     return (
         <div>
-            <img className="main-banner" src={background} alt=""/>
+            <Home></Home>            
             {
-                places.map(place => <Slider place={place}></Slider>)
+                places.map(place => <Slider key={place.id} place={place}></Slider>)
             }
         </div>
     );
