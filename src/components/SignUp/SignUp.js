@@ -115,16 +115,6 @@ const SignUp = () => {
                         <Form.Control name="confirmPassword" onBlur={handleBlur} style={{border:'none', borderBottom:'1px solid gray'}} type="password" placeholder="Confirm Password" required />
                     </Form.Group>
 
-                    <div className="form-bottom">
-                        <Form.Group>
-                            <Form.Check type="checkbox" label="Remember Me"/>
-                        </Form.Group>
-                        
-                        <Form.Group controlId="formBasicCheckbox">
-                        <Link style={{color:'#F9A51A'}}>Forgot Password</Link>
-                        </Form.Group>
-                    </div>
-
                     <button style={{width: '100%'}} className="head-button" variant="primary" type="submit">Create an Account</button>
 
                     <Form.Group style={{marginTop:'5px', textAlign:'center'}}>

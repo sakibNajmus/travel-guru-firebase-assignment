@@ -77,6 +77,7 @@ export const handleSignOut = () => {
       newUserInfo.error = '';
       newUserInfo.success = true;
       updateUserName(name);
+      verifyEmail();
       return newUserInfo;
     })
     .catch( error => {
@@ -116,3 +117,23 @@ const updateUserName = name =>{
       console.log(error)
     });
   }
+
+//   Verify Email
+const verifyEmail = () => {
+    const user = firebase.auth().currentUser;
+    user.sendEmailVerification().then(function () {
+  
+    }).catch(function (error) {
+  
+    });
+  }
+
+//   Reset Password
+export const resetPassword = (email) =>{
+    const auth = firebase.auth();
+    auth.sendPasswordResetEmail(email).then(function() {
+        // Email sent.
+      }).catch(function(error) {
+        // An error happened.
+      });
+}

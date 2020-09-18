@@ -5,7 +5,7 @@ import './Login.css'
 import Google from '../../resources/Icon/google.png'
 import FB from '../../resources/Icon/fb.png'
 import {UserContext} from '../../App'
-import { initializeLoginFramework, handleGoogleSignIn, handleSignOut, handleFbSignIn, signInWithEmailAndPassword } from './LoginManager';
+import { initializeLoginFramework, handleGoogleSignIn, handleSignOut, handleFbSignIn, signInWithEmailAndPassword, resetPassword } from './LoginManager';
 import Home from '../Home/Home';
 
 
@@ -110,7 +110,7 @@ const Login = () => {
                         </Form.Group>
                         
                         <Form.Group controlId="formBasicCheckbox">
-                        <Link style={{color:'#F9A51A'}}>Forgot Password</Link>
+                        <Link onClick={() => resetPassword(user.email)} style={{color:'#F9A51A'}}>Forgot Password</Link>
                         </Form.Group>
                     </div>
 
